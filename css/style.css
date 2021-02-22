@@ -15,6 +15,7 @@
 body {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  background-color: #1c2230;
 }
 
 #container {
@@ -57,6 +58,15 @@ ul {
   justify-content: space-between;
   font-family: "Raleway", sans-serif;
   font-size: 17px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:active {
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 /* main section styles */
@@ -219,4 +229,187 @@ section > article:nth-of-type(4) {
 #productive a:active {
   color: white;
   border-bottom: 1px solid white;
+}
+
+/* people section styles */
+
+#people {
+  display: flex;
+  margin: 177px 138px 360px 138px;
+  justify-content: space-between;
+  position: relative;
+}
+
+#people > img {
+  position: absolute;
+  top: -34px;
+  left: -10px;
+}
+
+#people > div {
+  width: 360px;
+  height: 200px;
+  background-color: #21293c;
+  z-index: 1;
+  padding: 44px 30px 24px 30px;
+}
+
+#people > div > p {
+  padding-bottom: 14px;
+}
+
+#people header {
+  display: flex;
+}
+
+#people header img {
+  height: 24px;
+  width: auto;
+  display: block;
+  clip-path: circle(50%);
+}
+
+#people header h3 {
+  font-size: 12px;
+}
+
+#people header h4 {
+  font-size: 8px;
+  font-weight: normal;
+}
+
+#people header div {
+  padding-left: 9px;
+}
+
+/* footer styles */
+
+footer {
+  height: 474px;
+  background-color: #0c1524;
+  position: relative;
+  padding: 204px 0 0 119px;
+}
+
+footer section {
+  max-width: 863px;
+  height: 273px;
+  background-color: #1c2230;
+  border-radius: 8px;
+  position: absolute;
+  top: -158px;
+  left: 286px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer section h2 {
+  font-size: 30px;
+  padding-top: 44px;
+  padding-bottom: 20px;
+}
+
+footer section p {
+  text-align: center;
+  padding: 0 120px 38px 120px;
+}
+
+form {
+  display: flex;
+  align-self: flex-start;
+  padding-left: 77px;
+}
+
+form #email {
+  color: grey;
+  height: 48px;
+  width: 481px;
+  border-radius: 30px;
+  border: none;
+  padding-left: 38px;
+}
+
+form label {
+  width: 199px;
+  height: 48px;
+  border-radius: 30px;
+  background: rgb(101, 226, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(101, 226, 217, 1) 0%,
+    rgba(51, 158, 204, 1) 100%
+  );
+  margin-left: 28px;
+  font-weight: 700;
+  padding: 14px 0 0 32px;
+}
+
+form label a {
+  text-decoration: none;
+}
+
+#footer {
+  display: flex;
+  padding-top: 26px;
+}
+
+#footer div:nth-of-type(1) {
+  max-width: 360px;
+  background-image: url(../images/icon-location.svg);
+  background-repeat: no-repeat;
+  background-position-y: 8px;
+  padding-left: 42px;
+  line-height: 22px;
+}
+
+#footer div:nth-of-type(2) p:nth-of-type(1) {
+  background-image: url(../images/icon-phone.svg);
+  background-repeat: no-repeat;
+  background-position-y: 4px;
+  margin-left: 61px;
+  padding-left: 47px;
+  padding-bottom: 22px;
+}
+
+#footer div:nth-of-type(2) p:nth-of-type(2) {
+  background-image: url(../images/icon-email.svg);
+  background-repeat: no-repeat;
+  background-position-y: 4px;
+  margin-left: 61px;
+  padding-left: 47px;
+  height: 30px;
+}
+
+#footer div:nth-of-type(3) {
+  margin-left: 142px;
+}
+
+#footer div:nth-of-type(3) p {
+  padding-bottom: 18px;
+}
+
+#footer div:nth-of-type(4) {
+  margin-left: 80px;
+}
+
+#footer div:nth-of-type(4) p {
+  padding-bottom: 18px;
+}
+
+#footer img {
+  display: block;
+  width: 123px;
+  height: auto;
+  align-self: flex-start;
+  margin-left: 106px;
+  margin-top: -5px;
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+#footer a:active {
+  font-weight: 700;
 }
