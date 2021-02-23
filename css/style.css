@@ -234,7 +234,6 @@ section > article:nth-of-type(4) {
   background-position-x: 135px;
   background-position-y: 4px;
   width: 150px;
-
   margin-left: 57px;
 }
 
@@ -421,15 +420,6 @@ form label:active {
 #footer div:nth-of-type(4) p {
   padding-bottom: 18px;
 }
-/* 
-#footer img {
-  display: block;
-  width: 123px;
-  height: auto;
-  align-self: flex-start;
-  margin-top: -5px;
-  margin-right: 80px;
-} */
 
 #footer div:nth-of-type(5) i {
   display: inline-block;
@@ -534,7 +524,7 @@ form label:active {
 
   form label {
     margin-left: 0;
-    margin-top: 10px;
+    margin-top: 25px;
   }
 
   form #email {
@@ -548,6 +538,12 @@ form label:active {
   }
 }
 
+@media screen and (max-width: 978px) {
+  footer section p {
+    padding: 0 60px 38px 60px;
+  }
+}
+
 /* mobile design */
 
-@media screen and (max-width: 865px);
+@media screen and (max-width: 924px);
