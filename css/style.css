@@ -64,6 +64,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
 nav a:active {
   text-decoration: underline;
   font-weight: 700;
@@ -123,6 +128,14 @@ main > a {
   padding-left: 94px;
 }
 
+main > a:hover {
+  background: #8cdae4;
+}
+
+main > a:active {
+  background: #8cdae4;
+}
+
 /* article section styles */
 
 #container > section {
@@ -175,7 +188,6 @@ section > article:nth-of-type(4) {
 #productive {
   display: flex;
   padding: 139px 103px 0 105px;
-  flex-wrap: wrap;
 }
 
 #productive > img {
@@ -224,6 +236,11 @@ section > article:nth-of-type(4) {
   width: 150px;
 
   margin-left: 57px;
+}
+
+#productive a:hover {
+  color: white;
+  border-bottom: 1px solid white;
 }
 
 #productive a:active {
@@ -289,7 +306,11 @@ footer {
   min-height: 474px;
   background-color: #0c1524;
   position: relative;
-  padding: 204px 0 0 119px;
+  padding: 204px 0 0 0;
+}
+
+footer > img {
+  margin-left: 119px;
 }
 
 footer section {
@@ -352,10 +373,19 @@ form label a {
   text-decoration: none;
 }
 
+form label:hover {
+  background: #8cdae4;
+}
+
+form label:active {
+  background: #8cdae4;
+}
+
 #footer {
   display: flex;
   padding-top: 26px;
   justify-content: space-between;
+  margin: 0 119px;
 }
 
 #footer div:nth-of-type(1) {
@@ -391,7 +421,7 @@ form label a {
 #footer div:nth-of-type(4) p {
   padding-bottom: 18px;
 }
-
+/* 
 #footer img {
   display: block;
   width: 123px;
@@ -399,13 +429,70 @@ form label a {
   align-self: flex-start;
   margin-top: -5px;
   margin-right: 80px;
+} */
+
+#footer div:nth-of-type(5) i {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding-top: 7px;
+  margin-right: 10px;
+}
+
+#footer div:nth-of-type(5) a:nth-of-type(1) i {
+  padding-left: 12px;
+}
+
+#footer div:nth-of-type(5) a:nth-of-type(2) i {
+  padding-left: 10px;
+}
+
+#footer div:nth-of-type(5) a:nth-of-type(3) i {
+  padding-left: 11px;
+}
+
+#footer div:nth-of-type(5) a:nth-of-type(1) i::before {
+  content: "\f39e";
+  font-family: "FontAwesome";
+  font-style: normal;
+}
+
+#footer div:nth-of-type(5) a:nth-of-type(2) i::before {
+  content: "\f099";
+  font-family: "FontAwesome";
+  font-style: normal;
+}
+
+#footer div:nth-of-type(5) a:nth-of-type(3) i::before {
+  content: "\f16d";
+  font-family: "FontAwesome";
+  font-style: normal;
+}
+
+#footer i {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+#footer div:nth-of-type(5) a:hover i {
+  color: #8cdae4;
+  border-color: #8cdae4;
+}
+
+#footer div:nth-of-type(5) a:active i {
+  color: #8cdae4;
+  border-color: #8cdae4;
 }
 
 #footer a {
   text-decoration: none;
 }
 
-#footer a:active {
+#footer > div > p > a:hover {
+  font-weight: 700;
+}
+
+#footer > div > p > a:active {
   font-weight: 700;
 }
 
