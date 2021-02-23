@@ -544,6 +544,55 @@ form label:active {
   }
 }
 
-/* mobile design */
+/*hier nog footer aanpassen!!!  !!! !!!! !!! !!! !!! */
 
-@media screen and (max-width: 924px);
+@media screen and (max-width: 924px) {
+}
+
+@media screen and (max-width: 750px) {
+  #container {
+    width: 100vw;
+    background-image: url(../images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+
+  #header {
+    padding: 39px 7% 0 5%;
+  }
+
+  header img {
+    height: auto;
+    width: 80px;
+  }
+
+  nav {
+    width: 50%;
+    padding-top: 13px;
+  }
+
+  ul {
+    font-size: 16px;
+  }
+
+  ul li:nth-of-type(1),
+  ul li:nth-of-type(2) {
+    margin-right: 10px;
+  }
+
+  main > img {
+    display: block;
+    width: 81%;
+    height: auto;
+    padding-top: 96px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav {
+    width: 65%;
+    padding-top: 13px;
+  }
+}
