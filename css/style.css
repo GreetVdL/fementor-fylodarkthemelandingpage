@@ -187,6 +187,7 @@ section > article:nth-of-type(4) {
 
 #productive {
   display: flex;
+  flex-wrap: nowrap;
   padding: 139px 103px 0 105px;
 }
 
@@ -711,7 +712,7 @@ form label:active {
   }
 
   footer section h2 {
-    font-size: 16.5px;
+    font-size: 18px;
   }
 
   footer section p {
@@ -729,6 +730,28 @@ form label:active {
     margin-bottom: 30px;
     padding-left: 0;
     text-align: center;
+  }
+}
+
+/* breakpoint */
+
+@media screen and (max-width: 440px) {
+  #productive > article {
+    align-self: flex-start;
+  }
+
+  #productive > article > h2 {
+    padding-left: 35px;
+  }
+
+  #productive > article > p:nth-of-type(1),
+  #productive > article > p:nth-of-type(2) {
+    padding-left: 35px;
+  }
+
+  #productive > article > p:nth-of-type(3) {
+    width: 150px;
+    margin-left: 35px;
   }
 }
 
