@@ -200,10 +200,11 @@ section > article:nth-of-type(4) {
 #productive > article > h2 {
   font-family: "Raleway", sans-serif;
   font-size: 41px;
-  max-width: 400px;
+  max-width: 500px;
   padding-top: 110px;
   padding-left: 57px;
   padding-bottom: 21px;
+  padding-right: 35px;
 }
 
 #productive > article > p {
@@ -685,6 +686,8 @@ form label:active {
   #productive > article > h2 {
     font-size: 27px;
     line-height: 45px;
+    max-width: 700px;
+    padding-top: 70px;
   }
 
   #productive > article > p {
