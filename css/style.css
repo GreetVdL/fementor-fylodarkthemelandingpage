@@ -492,6 +492,8 @@ form label:active {
 
 /* responsive styles */
 
+/* breakpoint */
+
 @media screen and (max-width: 1375px) {
   #productive {
     flex-direction: column;
@@ -509,6 +511,8 @@ form label:active {
     margin-bottom: 47px;
   }
 }
+
+/* breakpoint */
 
 @media screen and (max-width: 1328px) {
   #container > section {
@@ -540,17 +544,23 @@ form label:active {
   }
 }
 
+/* breakpoint */
+
 @media screen and (max-width: 1086px) {
   #footer div:nth-of-type(1) {
     max-width: 180px;
   }
 }
 
+/* breakpoint */
+
 @media screen and (max-width: 978px) {
   footer section p {
     padding: 0 60px 38px 60px;
   }
 }
+
+/* breakpoint */
 
 @media screen and (max-width: 924px) {
   footer {
@@ -595,34 +605,17 @@ form label:active {
     padding-right: 35px;
     padding-bottom: 40px;
   }
+}
 
-  footer section {
-    width: 300px;
-    left: calc(50% - 150px);
-    height: auto;
-  }
+/* breakpoint */
 
-  footer section h2 {
-    font-size: 16.5px;
-  }
-
+@media screen and (max-width: 777px) {
   footer section p {
-    padding: 0 0px 30px 0px;
-    width: 83%;
-  }
-
-  form #email,
-  form label {
-    width: 83%;
-  }
-
-  form label {
-    margin-top: 15px;
-    margin-bottom: 30px;
-    padding-left: 0;
-    text-align: center;
+    padding: 0 60px 20px 60px;
   }
 }
+
+/* breakpoint */
 
 @media screen and (max-width: 750px) {
   #container {
@@ -708,11 +701,46 @@ form label:active {
   }
 }
 
+/* breakpoint */
+
+@media screen and (max-width: 638px) {
+  footer section {
+    width: 300px;
+    left: calc(50% - 150px);
+    height: auto;
+  }
+
+  footer section h2 {
+    font-size: 16.5px;
+  }
+
+  footer section p {
+    padding: 0 0px 30px 0px;
+    width: 83%;
+  }
+
+  form #email,
+  form label {
+    width: 83%;
+  }
+
+  form label {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+/* breakpoint */
+
 @media screen and (max-width: 428px) {
   section > article {
     max-width: 81%;
   }
 }
+
+/* breakpoint */
 
 @media screen and (max-width: 400px) {
   nav {
