@@ -229,12 +229,16 @@ section > article:nth-of-type(4) {
 }
 
 #productive > article > p:nth-of-type(3) {
-  background-image: url(../images/icon-arrow.svg);
-  background-repeat: no-repeat;
-  background-position-x: 135px;
-  background-position-y: 4px;
   width: 150px;
   margin-left: 57px;
+}
+
+#productive > article > p:nth-of-type(3) a::after {
+  content: "\f0a9";
+  font-family: "FontAwesome";
+  font-style: normal;
+  height: auto;
+  padding-left: 8px;
 }
 
 #productive a:hover {
