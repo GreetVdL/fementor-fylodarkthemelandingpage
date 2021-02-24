@@ -765,6 +765,19 @@ form label:active {
 
 /* breakpoint */
 
+@media screen and (max-width: 412px) {
+  #people {
+    width: 255px;
+  }
+
+  #people > div {
+    width: 255px;
+    height: auto;
+  }
+}
+
+/* breakpoint */
+
 @media screen and (max-width: 400px) {
   nav {
     width: 65%;
