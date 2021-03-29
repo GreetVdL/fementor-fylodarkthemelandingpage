@@ -1,7 +1,12 @@
-# Frontend Mentor - Fylo landing page with dark theme and features grid
+# Frontend Mentor - Fylo landing page with dark theme and features grid solution
 
 ![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
 
+This is a solution to the [Fylo dark theme landing page](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd) junior challenge on [Frontend Mentor](https://www.frontendmentor.io/solutions). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+My solution can be viewed on [https://fementor-fylodarkthemelandingpage.vercel.app/](https://fementor-fylodarkthemelandingpage.vercel.app/) and on my [Frontend Mentor profile](https://www.frontendmentor.io/profile/GreetVdL).
+
+<!--
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -56,3 +61,4 @@ Feedback is always welcome, so if you have any to give on this challenge please 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+-->
